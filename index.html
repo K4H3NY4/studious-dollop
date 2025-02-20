@@ -35,7 +35,12 @@
 .header-personal .bg-gradient {
     background: linear-gradient(318deg, var(--bg-color) 10%, #181c34 50%, #151f35 40%, var(--bg-color) 89%) !important;
 }
-.p-absolut
+
+.section-title .sub-heading {
+ 
+    text-transform: capitalize !important;
+}
+
     </style>
 </head>
 <body class="v-dark dsn-ajax">
@@ -44,7 +49,7 @@
 
         <div class="dsnload p-absolute">
             <span class="dsnload__row">
-                <span class="dsnload__img">
+                <span class="dsnload__img d-none">
                     <img src="assets/img/logo-light.png" class="logo-dark" alt="mexdot" decoding="async"
                         loading="lazy" />
                     <img src="assets/img/logo.png" class="logo-light" alt="mexdot" decoding="async" loading="lazy" />
@@ -111,73 +116,6 @@
 
     <main id="main_root" class="main-root">
 
-        <!-- ========== Menu ========== -->
-        <header id="site_menu_header" class="site-header d-none">
-            <div class="main-logo">
-                <a href="index.html" data-dsn-text="mexdot" class="custom-logo-link main-brand effect-ajax" rel="home"
-                    aria-current="page">
-                    <img src="assets/img/logo-light.png" class="custom-logo logo-light" alt="mexdot" />
-                    <img src="assets/img/logo.png" class="custom-logo logo-dark" alt="mexdot" />
-                </a>
-            </div>
-            <nav class="main-navigation ">
-                <div class="menu-cover-title header-container dsn-container">MENU</div>
-                <ul id="dsn-primary-list" class="primary-nav h2">
-                    <li class="nav-item has-sub-menu">
-                        <a title="Home" href="#0">
-                            <span class="overflow ">Home</span>
-                        </a>
-                     
-                    </li>
-
-                    <li class="nav-item has-sub-menu">
-                        <a title="Home" href="#0">
-                            <span class="overflow ">About</span>
-                        </a>
-                       
-                    </li>
-
-                    <li class="nav-item has-sub-menu">
-                        <a title="Home" href="#0">
-                            <span class="overflow ">Works</span>
-                        </a>
-                        
-                    </li>
-
-                    <li class="nav-item ">
-                        <a title="About" href="#">
-                            <span class="overflow">About</span>
-                        </a>
-                    </li>
-                    <li class="nav-item ">
-                        <a title="Contact" href="contact.html">
-                            <span class="overflow">Contact</span>
-                        </a>
-                    </li>
-                </ul>
-
-            </nav>
-            <div id="navbar_toggle" class="navbar-toggle">
-                <div class="toggle-icon">
-                    <div class="toggle-line"></div>
-                    <div class="toggle-line"></div>
-                    <div class="toggle-line"></div>
-                </div>
-                <div class="toggle-text">
-                    <div class="text-menu">Menu</div>
-                    <div class="text-open">Open</div>
-                    <div class="text-close">Close</div>
-                </div>
-            </div>
-            <div class="bg-load background-main"></div>
-
-            <svg width="100%" height="100%" viewBox="0 0 100 100" preserveAspectRatio="none"
-                class="bg-load dsn-svg-transition">
-                <path vector-effect="non-scaling-stroke" d="M 0 100 V 100 Q 50 100 100 100 V 100 z" />
-            </svg>
-
-        </header>
-        <!-- ========== End Menu ========== -->
 
         <div id="dsn-scrollbar">
 
@@ -199,7 +137,7 @@
                                 Jeremiah Mburu
                             </h1>
 
-                            <div class="social-box p-relative mt-20">
+                            <div class="social-box p-relative mt-20 d-none">
                                 <ul class="d-flex justify-content-between gap-50">
                                     <li><a class="text-upper heading-color sm-title-block" href="#0" target="_blank"
                                             rel="nofollow noopener noreferrer">Head of Content, Culture & Social Media </a>
@@ -493,7 +431,7 @@
 
                             <div class="box-text d-flex flex-column justify-content-center pt-80 pb-80">
                                 <div class="section-title d-flex flex-column mb-30">
-                                    <span class="sub-heading dsn-fill">SIO LUKU TU !!!</span>
+                                    <span class="sub-heading dsn-fill">Sio Luku Tu !!!</span>
 
                                     <h2 class="title dsn-fill">EDUCATION</h2>
                                 </div>
@@ -678,74 +616,51 @@
                   "prev": { "rotate": [0, 0, 0], "translate": [-500, 50, -200] },
                   "next": { "rotate": [7, 7, 7], "translate": [500, 50, 200] }
               }
-          }' style="display: none;">
+          }' >
               <div class="">
                   <div class="swiper-container swiper v-dark-head">
                       <div class="swiper-wrapper">
                           <div class="swiper-slide team-item p-relative">
                               <div class="box-img has-border-radius over-hidden" data-overlay="1">
-                                  <img class="cover-bg-img" src="assets/img/team/5.jpg" alt="">
+                                  <img class="cover-bg-img" src="jerry/image-1.jpeg" alt="">
                               </div>
-                              <div class="content w-100 p-absolute bottom-0 text-center"
-                                  data-swiper-parallax-opacity="0">
-                                  <div class="text">
-                                      <h4 class="title-block text-upper mb-5">Claudia De Robert</h4>
-                                      <span class="text-upper">Web Designer</span>
-                                  </div>
-
-                              </div>
+                            
                           </div>
 
                           <div class="swiper-slide team-item p-relative">
                               <div class="box-img has-border-radius over-hidden" data-overlay="3">
-                                  <img class="cover-bg-img" src="assets/img/team/6.jpg" alt="">
+                                  <img class="cover-bg-img" src="jerry/image-10.jpeg" alt="">
                               </div>
-                              <div class="content w-100 p-absolute bottom-0 text-center"
-                                  data-swiper-parallax-opacity="0">
-                                  <div class="text">
-                                      <h4 class="title-block text-upper mb-5">Claudia De Robert</h4>
-                                      <span class="text-upper">Web Designer</span>
-                                  </div>
-
-                              </div>
+                             
                           </div>
 
                           <div class="swiper-slide team-item p-relative">
                               <div class="box-img has-border-radius over-hidden" data-overlay="2">
-                                  <img class="cover-bg-img" src="assets/img/team/7.jpg" alt="">
+                                  <img class="cover-bg-img" src="jerry/image-11.jpeg" alt="">
                               </div>
-                              <div class="content w-100 p-absolute bottom-0 text-center"
-                                  data-swiper-parallax-opacity="0">
-                                  <div class="text">
-                                      <h4 class="title-block text-upper mb-5">Claudia De Robert</h4>
-                                      <span class="text-upper">Web Designer</span>
-                                  </div>
-
-                              </div>
+                             
                           </div>
 
                           <div class="swiper-slide team-item p-relative">
                               <div class="box-img has-border-radius over-hidden" data-overlay="3">
-                                  <img class="cover-bg-img" src="assets/img/team/8.jpg" alt="">
+                                  <img class="cover-bg-img" src="jerry/image-2.jpeg" alt="">
                               </div>
                               <div class="content w-100 p-absolute bottom-0 text-center"
                                   data-swiper-parallax-opacity="0">
                                   <div class="text">
-                                      <h4 class="title-block text-upper mb-5">Claudia De Robert</h4>
-                                      <span class="text-upper">Web Designer</span>
+                                     
                                   </div>
 
                               </div>
                           </div>
                           <div class="swiper-slide team-item p-relative">
                               <div class="box-img has-border-radius over-hidden" data-overlay="1">
-                                  <img class="cover-bg-img" src="assets/img/team/5.jpg" alt="">
+                                  <img class="cover-bg-img" src="jerry/image-3.jpeg" alt="">
                               </div>
                               <div class="content w-100 p-absolute bottom-0 text-center"
                                   data-swiper-parallax-opacity="0">
                                   <div class="text">
-                                      <h4 class="title-block text-upper mb-5">Claudia De Robert</h4>
-                                      <span class="text-upper">Web Designer</span>
+                                  
                                   </div>
 
                               </div>
@@ -753,13 +668,12 @@
 
                           <div class="swiper-slide team-item p-relative">
                               <div class="box-img has-border-radius over-hidden" data-overlay="3">
-                                  <img class="cover-bg-img" src="assets/img/team/6.jpg" alt="">
+                                  <img class="cover-bg-img" src="jerry/image-4.jpeg" alt="">
                               </div>
                               <div class="content w-100 p-absolute bottom-0 text-center"
                                   data-swiper-parallax-opacity="0">
                                   <div class="text">
-                                      <h4 class="title-block text-upper mb-5">Claudia De Robert</h4>
-                                      <span class="text-upper">Web Designer</span>
+                                      
                                   </div>
 
                               </div>
@@ -767,13 +681,12 @@
 
                           <div class="swiper-slide team-item p-relative">
                               <div class="box-img has-border-radius over-hidden" data-overlay="2">
-                                  <img class="cover-bg-img" src="assets/img/team/7.jpg" alt="">
+                                  <img class="cover-bg-img" src="jerry/image-5.jpeg" alt="">
                               </div>
                               <div class="content w-100 p-absolute bottom-0 text-center"
                                   data-swiper-parallax-opacity="0">
                                   <div class="text">
-                                      <h4 class="title-block text-upper mb-5">Claudia De Robert</h4>
-                                      <span class="text-upper">Web Designer</span>
+                                     
                                   </div>
 
                               </div>
@@ -781,26 +694,24 @@
 
                           <div class="swiper-slide team-item p-relative">
                               <div class="box-img has-border-radius over-hidden" data-overlay="3">
-                                  <img class="cover-bg-img" src="assets/img/team/8.jpg" alt="">
+                                  <img class="cover-bg-img" src="jerry/image-6.jpeg" alt="">
                               </div>
                               <div class="content w-100 p-absolute bottom-0 text-center"
                                   data-swiper-parallax-opacity="0">
                                   <div class="text">
-                                      <h4 class="title-block text-upper mb-5">Claudia De Robert</h4>
-                                      <span class="text-upper">Web Designer</span>
+                                     
                                   </div>
 
                               </div>
                           </div>
                           <div class="swiper-slide team-item p-relative">
                               <div class="box-img has-border-radius over-hidden" data-overlay="1">
-                                  <img class="cover-bg-img" src="assets/img/team/5.jpg" alt="">
+                                  <img class="cover-bg-img" src="jerry/image-7.jpeg" alt="">
                               </div>
                               <div class="content w-100 p-absolute bottom-0 text-center"
                                   data-swiper-parallax-opacity="0">
                                   <div class="text">
-                                      <h4 class="title-block text-upper mb-5">Claudia De Robert</h4>
-                                      <span class="text-upper">Web Designer</span>
+                                  
                                   </div>
 
                               </div>
@@ -808,13 +719,12 @@
 
                           <div class="swiper-slide team-item p-relative">
                               <div class="box-img has-border-radius over-hidden" data-overlay="3">
-                                  <img class="cover-bg-img" src="assets/img/team/6.jpg" alt="">
+                                  <img class="cover-bg-img" src="jerry/image-8.jpeg" alt="">
                               </div>
                               <div class="content w-100 p-absolute bottom-0 text-center"
                                   data-swiper-parallax-opacity="0">
                                   <div class="text">
-                                      <h4 class="title-block text-upper mb-5">Claudia De Robert</h4>
-                                      <span class="text-upper">Web Designer</span>
+                                    
                                   </div>
 
                               </div>
@@ -822,31 +732,11 @@
 
                           <div class="swiper-slide team-item p-relative">
                               <div class="box-img has-border-radius over-hidden" data-overlay="2">
-                                  <img class="cover-bg-img" src="assets/img/team/7.jpg" alt="">
+                                  <img class="cover-bg-img" src="jerry/image-9.jpeg" alt="">
                               </div>
-                              <div class="content w-100 p-absolute bottom-0 text-center"
-                                  data-swiper-parallax-opacity="0">
-                                  <div class="text">
-                                      <h4 class="title-block text-upper mb-5">Claudia De Robert</h4>
-                                      <span class="text-upper">Web Designer</span>
-                                  </div>
-
-                              </div>
+                           
                           </div>
 
-                          <div class="swiper-slide team-item p-relative">
-                              <div class="box-img has-border-radius over-hidden" data-overlay="3">
-                                  <img class="cover-bg-img" src="assets/img/team/8.jpg" alt="">
-                              </div>
-                              <div class="content w-100 p-absolute bottom-0 text-center"
-                                  data-swiper-parallax-opacity="0">
-                                  <div class="text">
-                                      <h4 class="title-block text-upper mb-5">Claudia De Robert</h4>
-                                      <span class="text-upper">Web Designer</span>
-                                  </div>
-
-                              </div>
-                          </div>
 
                       </div>
                   </div>
